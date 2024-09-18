@@ -93,7 +93,7 @@ const FiltersScreen: React.FC<FiltersScreenProps> = ({ navigation }) => {
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    paddingTop: Platform.OS === "android" ? 30 : 0, // Adjust for status bar on Android
+    paddingTop: Platform.OS === "android" ? 30 : 0,
     alignItems: "center",
     backgroundColor: Colors.backgroundColor,
   },

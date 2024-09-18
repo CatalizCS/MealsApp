@@ -39,14 +39,14 @@ const styles = StyleSheet.create({
   gridItem: {
     flex: 1,
     margin: 12,
-    height: 180,  // Tăng chiều cao để hình ảnh bắt mắt hơn
-    borderRadius: 15,  // Bo tròn các góc mềm mại
+    height: 180,
+    borderRadius: 15, 
     overflow: "hidden",
     elevation: 6,
     shadowColor: "black",
     shadowOpacity: 0.3,
     shadowOffset: { width: 0, height: 3 },
-    shadowRadius: 12,  // Tăng độ mờ của bóng
+    shadowRadius: 12, 
   },
   bgImage: {
     width: "100%",
@@ -61,8 +61,8 @@ const styles = StyleSheet.create({
   },
   title: {
     fontFamily: "open-sans-bold",
-    fontSize: 20,  // Tăng kích thước chữ để tiêu đề nổi bật hơn
-    textAlign: "center",  // Căn giữa tiêu đề
+    fontSize: 20,  
+    textAlign: "center",
     color: "white",
     shadowColor: "black",
     shadowOpacity: 0.7,

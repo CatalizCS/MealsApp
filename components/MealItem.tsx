@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.white,
   },
   titleContainer: {
-    backgroundColor: "rgba(0, 0, 0, 0.6)", // Tăng độ rõ của nền tiêu đề
+    backgroundColor: "rgba(0, 0, 0, 0.6)",
     paddingVertical: 8,
     paddingHorizontal: 14,
     borderBottomLeftRadius: 10,
@@ -126,13 +126,13 @@ const styles = StyleSheet.create({
   },
   title: {
     fontFamily: "open-sans-bold",
-    fontSize: 20, // Tăng kích thước chữ tiêu đề để dễ đọc hơn
+    fontSize: 20,
     color: Colors.white,
     textAlign: "center",
   },
   detailItem: {
     fontFamily: "open-sans",
-    fontSize: 16, // Tăng kích thước chữ của chi tiết món ăn
+    fontSize: 16,
     color: Colors.lightTextColor,
   },
 });

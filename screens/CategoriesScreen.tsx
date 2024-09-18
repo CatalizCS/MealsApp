@@ -56,7 +56,7 @@ const CategoriesScreen: React.FC<CategoriesScreenProps> = ({ navigation }) => {
         renderItem={renderGridItem}
         numColumns={2}
         contentContainerStyle={styles.listContainer}
-        columnWrapperStyle={styles.columnWrapper} // Giúp căn chỉnh các ô danh mục đều nhau
+        columnWrapperStyle={styles.columnWrapper}
       />
     </SafeAreaView>
   );
@@ -70,11 +70,11 @@ const styles = StyleSheet.create({
   },
   listContainer: {
     paddingVertical: 10,
-    paddingHorizontal: 15, // Thêm khoảng cách hai bên để danh mục không sát lề
+    paddingHorizontal: 15,
   },
   columnWrapper: {
-    justifyContent: "space-between", // Căn đều các cột
-    marginBottom: 15, // Thêm khoảng cách giữa các hàng
+    justifyContent: "space-between",
+    marginBottom: 15,
   },
 });
 
